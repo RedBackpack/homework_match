@@ -55,27 +55,4 @@ class IndexController extends Controller
         $subject = str_replace('地点：','',$subject);
         return $subject;
     }
-
-    public function check()
-    {
-       if()     
-    }
-
-    // private function dealoutputarray($output,$data){
-    //     array_shift($output);
-    //     array_shift($output);
-    //     for ($i=0; $i<=6; $i++)
-    //      {
-    //         array_pop($output[$i]);
-    //         array_splice($output[$i], 0, 1);
-    //         array_splice($output[$i], 2, 1);
-    //         array_splice($output[$i], 4, 1);
-    //         array_splice($output[$i], 6, 13);
-    //     }
-    //     foreach ($output as $value){
-    //         $data[] = $value
-    //     }
-    //     return $data;
-
-    // }
  }
